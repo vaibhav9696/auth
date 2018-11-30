@@ -1,7 +1,7 @@
 const bcrypt = require('bcrypt');
 const {MD5} = require('crypto-js');
 const jwt = require('jsonwebtoken');
-
+ 
 // bcrypt.genSalt(10,(err,salt)=>{
 //     if(err) return next(err);
 
