@@ -24,7 +24,7 @@ app.post('/api/user',(req,res)=>{
     })
 })
 
-
+//test
 app.post('/api/user/login',(req,res)=>{
 
     User.findOne({'email':req.body.email},(err,user)=>{
